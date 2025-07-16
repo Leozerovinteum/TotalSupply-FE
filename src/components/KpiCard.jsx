@@ -1,0 +1,1 @@
+import React from 'react'; export default function KpiCard({ title, value }) { return (<div><strong>{title}</strong><p>{value}</p></div>); }

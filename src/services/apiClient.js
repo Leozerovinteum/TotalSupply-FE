@@ -1,0 +1,1 @@
+import axios from 'axios'; const api = axios.create({ baseURL: 'https://totalsupply-65cd.onrender.com/api' }); export default api;

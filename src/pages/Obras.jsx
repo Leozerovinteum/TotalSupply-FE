@@ -1,0 +1,1 @@
+import React from 'react'; import PageHeader from '../components/PageHeader'; export default function Obras() { return (<div><PageHeader title='Obras' /><p>Lista de obras aqui...</p></div>); }

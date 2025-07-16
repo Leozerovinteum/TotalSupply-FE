@@ -1,0 +1,1 @@
+export const kpis = [{ title: 'Requisições', value: 12 }, { title: 'Pedidos', value: 7 }];

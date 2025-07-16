@@ -1,0 +1,1 @@
+import React from 'react'; import SideMenu from './SideMenu'; export default function AppLayout({ children }) { return (<div style={{ display: 'flex' }}><SideMenu /> <main style={{ flex: 1 }}>{children}</main></div>); }
