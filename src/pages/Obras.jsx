@@ -1,1 +1,11 @@
-import React from 'react'; import PageHeader from '../components/PageHeader'; export default function Obras() { return (<div><PageHeader title='Obras' /><p>Lista de obras aqui...</p></div>); }
+
+function Obras() {
+  return (
+    <div>
+      <h1 className="text-2xl font-bold">Obras</h1>
+      <p>Em breve: lista de obras conectada ao backend.</p>
+    </div>
+  );
+}
+
+export default Obras;

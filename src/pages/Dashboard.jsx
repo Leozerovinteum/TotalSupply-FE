@@ -1,1 +1,11 @@
-import React from 'react'; import PageHeader from '../components/PageHeader'; import KpiCard from '../components/KpiCard'; import { kpis } from '../data/kpis'; export default function Dashboard() { return (<div><PageHeader title='Dashboard' /> {kpis.map(k => <KpiCard key={k.title} {...k} />)}</div>); }
+
+function Dashboard() {
+  return (
+    <div>
+      <h1 className="text-2xl font-bold">Dashboard</h1>
+      <p>Bem-vindo ao TotalSupply!</p>
+    </div>
+  );
+}
+
+export default Dashboard;
